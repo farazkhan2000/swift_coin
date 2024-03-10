@@ -15,18 +15,12 @@ const Footer = () => {
               <span className='mt-3'>Taylor Wif Jet</span>
             </a>
           </div>
-          <div className="col-lg-8 d-flex justify-content-end  ">
-            <ul className='d-flex align-items-center border'>
-              <li className='border'>
-                <a href="/"><img src={dexscreenerIcon} className='img-fluid w-25' alt="telegram" /></a>
-              </li>
-              <li>
-                <a href="/"><img src={twitterIcon} className='img-fluid w-25' alt="telegram" /></a>
-              </li>
-              <li>
-                <a href="/" ><img src={telegramIcon} className='img-fluid w-25' alt="telegram" /></a>
-              </li>
-            </ul>
+          <div className="col-lg-8   ">
+            <div className='d-flex align-items-center justify-content-end gap-3'>
+              <a href="/"><img src={dexscreenerIcon} className='img-fluid' style={{ width: '48px' }} alt="telegram" /></a>
+              <a href="/"><img src={twitterIcon} className='img-fluid' style={{ width: '48px' }} alt="telegram" /></a>
+              <a href="/" ><img src={telegramIcon} className='img-fluid' style={{ width: '48px' }} alt="telegram" /></a>
+            </div>
           </div>
         </div>
         <hr className='text-secondary border-3' />

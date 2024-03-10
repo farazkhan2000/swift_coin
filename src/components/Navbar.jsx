@@ -16,19 +16,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto gap-4 mt-2">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">HOME</a>
+                <a className="nav-link active fs-4" aria-current="page" href="#">HOME</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="#">ABOUT</a>
+                <a className="nav-link fs-4" aria-current="page" href="#">ABOUT</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">HOW TO BUY?</a>
+                <a className="nav-link fs-4" href="/">HOW TO BUY?</a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a className="nav-link" href="/">ROADMAP</a>
-              </li>
+              </li> */}
             </ul>
-            <button className='btn btn-outline-light btn-lg rounded-5 fw-bold border-3 shadow px-4 py-3 ms-5'>JOIN TELEGRAM</button>
+            <button className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow px-4 py-3 ms-5'>JOIN TELEGRAM</button>
           </div>
         </div>
       </nav>

@@ -1,20 +1,21 @@
 import React from "react";
 import banner from '../assets/banner.png';
 import { ArrowUpRight } from 'lucide-react';
+import jetImage from '../assets/jet.webp';
 
 const HeroSection = () => {
   return (
-    <section className="text-light bg-dark d-flex align-items-center" >
-      <div className="container-fluid">
+    <section className="text-light bg-dark d-flex align-items-center position-relative " >
+      <div className="container z-1">
         <div>
           <h1 className="display-1 fw-bolder text-center mt-5 text-danger">
             TAYLOR WIF JET
           </h1>
         </div>
-        <p className="w-50 text-center mx-auto">
-          A MEME COIN CREATED ON SOLANA BLOCKCHAIN ABOUT TAYLOR SWIFT WHO CLAIMS TO BE A GLOBAL 
-          WARMING ACTIVIST AND WANTS ONLY GOOD FOR OUR PLANET BUT USING HER JET “ONLY” 300 TIMES 
-          A YEAR. THIS PROJECT IS A COMMUNITY TAKEOVER
+        <p className="w-50 text-center mb-5 mx-auto fs-4">
+          {/* INTRODUCING SWIFTCOIN: THE TAYLOR SWIFT-INSPIRED MEME COIN ON SOLANA. JOIN THE FUN AS WE BLEND HUMOR, 
+          CRYPTO, AND ENVIRONMENTAL ACTIVISM IN A COMMUNITY-DRIVEN PROJECT. WELCOME TO THE SWIFTCOIN REVOLUTION! */}
+          HI, MY NAME IS TAYLOR AND I COME WITH A WIF JET.  
         </p>
         <div className="d-flex justify-content-center gap-3">
           <button className='btn btn-outline-danger btn-lg rounded-5 fs-4 fw-bold border-3 shadow px-4 py-3'>
@@ -23,9 +24,10 @@ const HeroSection = () => {
           </button>
         </div>
         <div className="d-flex justify-content-center mx-auto my-5">
-          <img src={banner} className="img-fluid mx-auto shadow-5 rounded-5 w-50" alt="banner" />
+          <img src={banner} className="img-fluid mx-auto shadow-5 rounded-5 w-75 mt-4" alt="banner" />
         </div>
       </div>
+      <img src={jetImage} className="position-absolute z-0 bottom-0 start-0 opacity-25" alt="jet" />
     </section>
   );
 };
