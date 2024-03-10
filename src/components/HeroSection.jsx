@@ -7,7 +7,7 @@ const HeroSection = () => {
     <section className="text-light bg-dark d-flex align-items-center" >
       <div className="container-fluid">
         <div>
-          <h1 className="display-1 fw-bolder text-center mt-5">
+          <h1 className="display-1 fw-bolder text-center mt-5 text-danger">
             TAYLOR WIF JET
           </h1>
         </div>
@@ -17,7 +17,7 @@ const HeroSection = () => {
           A YEAR. THIS PROJECT IS A COMMUNITY TAKEOVER
         </p>
         <div className="d-flex justify-content-center gap-3">
-          <button className='btn btn-outline-light btn-lg rounded-5 fs-4 fw-bold border-3 shadow px-4 py-3'>
+          <button className='btn btn-outline-danger btn-lg rounded-5 fs-4 fw-bold border-3 shadow px-4 py-3'>
             JOIN OUR COMMUNITY 
             <ArrowUpRight className="ms-2" />
           </button>
