@@ -1,5 +1,7 @@
 import React from 'react';
 import image from '../assets/meme12.jpg';
+import telegram from '../assets/telegram.png';
+import twitter from '../assets/twitter.png';
 
 const HowToBuy = () => {
   return (
@@ -50,8 +52,16 @@ const HowToBuy = () => {
                     <div className="card-header border-danger">Step 4</div>
                     <div className="card-body">
                       <h5 className="card-title mb-4">JOIN THE FANCLUB!</h5>
-                      <button className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow'>TELEGRAM</button>
-                      <button className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow ms-2'>TWITTER</button>
+                      <div className='d-flex align-items-center flex-wrap gap-3'>
+                        <button className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow d-flex align-items-center gap-2'>
+                          TELEGRAM 
+                          <img src={telegram} className='img-fluid' style={{ width: '32px' }} alt="telegram" />
+                        </button>
+                        <button className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow'>
+                          TWITTER
+                          <img src={twitter} className='img-fluid' style={{ width: '32px' }} alt="telegram" />
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </div>
