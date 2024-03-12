@@ -8,7 +8,7 @@ const Navbar = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-md-4 shadow">
         <div className="container-fluid d-flex align-items-center">
-          <a className="navbar-brand d-flex align-items-center" href="/">
+          <a href="/" className="navbar-brand d-flex align-items-center z-1">
             <img style={{ width: '48px' }} className='me-3' src={logo} alt="logo" />
             <span className='mt-3 fs-5 fs-md-2 fw-bold'>Taylor Wif Jet</span>
           </a>
@@ -52,7 +52,7 @@ const Navbar = () => {
               <motion.a 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }} 
-                href='https://t.me/taylorwifjetmeme' 
+                href='https://t.me/SWIFTWIFJET_COMMUNITY' 
                 target='_blank' 
                 className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow px-4 mt-4 mt-lg-0 mb-5 mb-lg-0 py-2 py-lg-3 ms-lg-5'
               >

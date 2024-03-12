@@ -63,7 +63,7 @@ const About = () => {
         <p className=''>You can call us the <span className='text-danger'>$SWIFT</span></p>
         <div className="row mt-5 g-4">
           <motion.div whileHover={{ scale: 1.2 }} className="col-lg-4">
-            <a  href="https://dexscreener.com/solana/6uybx1x8yucfj8ystpyizbyg7uqzaq2s46zwphumkjg5" target='_blank' className='text-decoration-none'>
+            <a  href="https://dexscreener.com/solana/3sk6wjt4m4bjnf22qrsz7ljlmha8n9s2epeyg2ejja6b" target='_blank' className='text-decoration-none'>
               <div className="card text-bg-dark border-light pt-4">
                 <img src={chart} className="card-img-top img-fluid mx-auto" style={{ width: '58px' }} alt="chart" />
                 <div className="card-body">
@@ -73,7 +73,7 @@ const About = () => {
             </a>
           </motion.div>
           <motion.div whileHover={{ scale: 1.2 }} className="col-lg-4">
-            <a href="https://t.me/taylorwifjetmeme" target='_blank' className='text-decoration-none'>
+            <a href="https://t.me/SWIFTWIFJET_COMMUNITY" target='_blank' className='text-decoration-none'>
               <div className="card text-bg-dark border-light pt-4">
                 <img src={telegram} className="card-img-top img-fluid mx-auto" style={{ width: '58px' }} alt="chart" />
                 <div className="card-body">
@@ -103,7 +103,7 @@ const About = () => {
             </a>
           </motion.div>
           <motion.div whileHover={{ scale: 1.2 }} className="col-lg-4">
-            <a href="/" className='text-decoration-none'>
+            <a href="mailto:contact@taylorwifjet.xyz" className='text-decoration-none'>
               <div className="card text-bg-dark border-light pt-4">
                 <img src={email} className="card-img-top img-fluid mx-auto" style={{ width: '58px' }} alt="chart" />
                 <div className="card-body">

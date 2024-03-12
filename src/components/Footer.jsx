@@ -30,7 +30,7 @@ const Footer = () => {
               <motion.a
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }} 
-                href="https://dexscreener.com/solana/6uybx1x8yucfj8ystpyizbyg7uqzaq2s46zwphumkjg5"
+                href="https://dexscreener.com/solana/3sk6wjt4m4bjnf22qrsz7ljlmha8n9s2epeyg2ejja6b"
                 target="_blank"
               >
                 <img
@@ -56,7 +56,7 @@ const Footer = () => {
               <motion.a 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }} 
-                href="https://t.me/taylorwifjetmeme" 
+                href="https://t.me/SWIFTWIFJET_COMMUNITY" 
                 target="_blank"
               >
                 <img

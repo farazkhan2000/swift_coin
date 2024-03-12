@@ -19,7 +19,7 @@ const HowToBuy = () => {
                     <div className="card-header border-danger">Step 1</div>
                     <div className="card-body">
                       <h5 className="card-title">CLICK "BUY NOW"</h5>
-                      <a href='https://dexscreener.com/solana/3sk6wjt4m4bjnf22qrsz7ljlmha8n9s2epeyg2ejja6b' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow my-3'>BUY NOW</a>
+                      <a href='https://raydium.io/swap/?outputCurrency=wcLXwY2Wj91xc4VjYWoK8VbzcmMyEofbTk6njVWYJDc' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow my-3'>BUY NOW</a>
                       <p className="card-text">The button will take you to Raydium</p>
                     </div>
                   </div>
@@ -42,7 +42,7 @@ const HowToBuy = () => {
                         Put in the contract: wcLXwY2Wj91xc4VjYWoK8VbzcmMyEofbTk6njVWYJDc
                       </p>
                       <p className="card-text">
-                        Once you've chosen the amount of $BENJI you want, simply click swap!
+                        Once you've chosen the amount of $SWIFT you want, simply click swap!
                       </p>
                     </div>
                   </div>
@@ -53,7 +53,7 @@ const HowToBuy = () => {
                     <div className="card-body">
                       <h5 className="card-title mb-4">JOIN THE FANCLUB!</h5>
                       <div className='d-flex align-items-center flex-wrap gap-3'>
-                        <a href='https://t.me/taylorwifjetmeme' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow d-flex align-items-center gap-2'>
+                        <a href='https://t.me/SWIFTWIFJET_COMMUNITY' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow d-flex align-items-center gap-2'>
                           TELEGRAM 
                           <img src={telegram} className='img-fluid' style={{ width: '32px' }} alt="telegram" />
                         </a>
