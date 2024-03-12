@@ -52,7 +52,7 @@ const Navbar = () => {
               <motion.a 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }} 
-                href='https://t.me/SWIFTWIFJET_COMMUNITY' 
+                href='https://t.me/TaylorWifJet_Community_Portal' 
                 target='_blank' 
                 className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow px-4 mt-4 mt-lg-0 mb-5 mb-lg-0 py-2 py-lg-3 ms-lg-5'
               >

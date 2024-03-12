@@ -43,7 +43,7 @@ const Footer = () => {
               <motion.a 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }} 
-                href="https://twitter.com/taylorwifjet" 
+                href="https://twitter.com/taylorwifjetsol" 
                 target="_blank"
               >
                 <img
@@ -56,7 +56,7 @@ const Footer = () => {
               <motion.a 
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }} 
-                href="https://t.me/SWIFTWIFJET_COMMUNITY" 
+                href="https://t.me/TaylorWifJet_Community_Portal" 
                 target="_blank"
               >
                 <img

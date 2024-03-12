@@ -53,11 +53,11 @@ const HowToBuy = () => {
                     <div className="card-body">
                       <h5 className="card-title mb-4">JOIN THE FANCLUB!</h5>
                       <div className='d-flex align-items-center flex-wrap gap-3'>
-                        <a href='https://t.me/SWIFTWIFJET_COMMUNITY' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow d-flex align-items-center gap-2'>
+                        <a href='https://t.me/TaylorWifJet_Community_Portal' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow d-flex align-items-center gap-2'>
                           TELEGRAM 
                           <img src={telegram} className='img-fluid' style={{ width: '32px' }} alt="telegram" />
                         </a>
-                        <a href='https://twitter.com/taylorwifjet' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow'>
+                        <a href='https://twitter.com/taylorwifjetsol' target='_blank' className='btn btn-outline-danger btn-lg rounded-5 fw-bold border-3 shadow'>
                           TWITTER
                           <img src={twitter} className='img-fluid' style={{ width: '32px' }} alt="telegram" />
                         </a>

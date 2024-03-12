@@ -73,7 +73,7 @@ const About = () => {
             </a>
           </motion.div>
           <motion.div whileHover={{ scale: 1.2 }} className="col-lg-4">
-            <a href="https://t.me/SWIFTWIFJET_COMMUNITY" target='_blank' className='text-decoration-none'>
+            <a href="https://t.me/TaylorWifJet_Community_Portal" target='_blank' className='text-decoration-none'>
               <div className="card text-bg-dark border-light pt-4">
                 <img src={telegram} className="card-img-top img-fluid mx-auto" style={{ width: '58px' }} alt="chart" />
                 <div className="card-body">
@@ -83,7 +83,7 @@ const About = () => {
             </a>
           </motion.div>
           <motion.div whileHover={{ scale: 1.2 }} className="col-lg-4">
-            <a href="https://twitter.com/taylorwifjet" target='_blank' className='text-decoration-none'>
+            <a href="https://twitter.com/taylorwifjetsol" target='_blank' className='text-decoration-none'>
               <div className="card text-bg-dark border-light pt-4">
                 <img src={twitter} className="card-img-top img-fluid mx-auto" style={{ width: '58px' }} alt="chart" />
                 <div className="card-body">

@@ -20,7 +20,7 @@ const HeroSection = () => {
           <motion.a 
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }} 
-            href='https://t.me/SWIFTWIFJET_COMMUNITY'
+            href='https://t.me/TaylorWifJet_Community_Portal'
              target='_blank' 
              className='btn btn-outline-danger btn-lg rounded-5 fs-5 fs-md-4 fw-bold border-3 shadow px-4 py-3 z-1'
              >
