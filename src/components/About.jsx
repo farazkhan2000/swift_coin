@@ -14,6 +14,9 @@ import twitter from '../assets/twitter.png';
 import ca from '../assets/ca.png';
 import email from '../assets/email.png';
 import taylorJetVideo from  '../assets/taylorJetVideo.mp4';
+import video1 from '../assets/video1.mp4';
+import video2 from '../assets/video2.mp4';
+import video3 from '../assets/video3.mp4';
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -36,17 +39,7 @@ const About = () => {
         <h4 className='text-light text-center display-5 pt-5 fw-bold'>TAYLOR SWIFT THE GLOBAL ACTIVIST</h4>
         <div className="row align-items-center g-5 mt-4 py-3">
           <div className="col-lg-6">
-            {/* <p className=''>
-              INTRODUCING TAYLOR SWIFT, THE ULTIMATE POP DIVA WHOSE PRIVATE JET HAS BECOME THE TALK OF THE TOWN—THANKS TO 
-              ITS EMISSIONS RIVALING A CRYPTOCURRENCY MINING OPERATION! IMAGINE IF EACH MILE FLOWN BY HER JET WERE TO SPAWN 
-              A NEW CRYPTO TOKEN—ENTER SWIFTCOIN, THE SKY-HIGH SENSATION!
-            </p> */}
             <p className='mb-0 fs-2'>
-              {/* IN THE WILD WORLD OF DIGITAL CURRENCIES, TAYLOR SWIFT'S JET EMISSIONS PUT EVEN THE MOST VIGOROUS BITCOIN 
-              MINERS TO SHAME. WHO NEEDS WINGS WHEN YOU CAN RIDE THE WAVE OF A DIGITAL CURRENCY? PERHAPS TAYLOR'S JET IS 
-              FUELED BY ETHEREUM GAS FEES—AFTER ALL, WHY LET THOSE SKY-HIGH FEES GO TO WASTE? PICTURE HER JET CRUISING 
-              THE CLOUDS, POWERED BY THE COLLECTIVE SIGHS OF ETHEREUM USERS WRESTLING WITH TRANSACTION WOES. IT'S A SKY-HIGH
-              SPECTACLE LIKE NO OTHER! */}
               PPL TELL ME I SHOULD JEET THE JET, BUT THEN HOW ARE WE GOING TO GET TO THE MOON? BUT I UNDERSTAND YOUR CONCERN 
               MY FRIENDS. I TOO WORRY ABOUT TREES AND STUFF. I WILL GIVE AWAY 1% OF MY BELOVED $SWIFT TO HELP OFFSET THE JET 
               CARBS SO THAT WE CAN TRAVEL LIGHT AS A COMMUNITY.
@@ -55,6 +48,24 @@ const About = () => {
           <div className="col-lg-6 d-flex justify-content-end">
             <video className='w-100' muted loop autoPlay>
               <source src={taylorJetVideo} type="video/mp4" />
+              Taylor Swift Jet
+            </video>
+          </div>
+          <div className="col-lg-4 d-flex justify-content-center">
+            <video className='w-100' muted loop autoPlay>
+              <source src={video1} type="video/mp4" />
+              Taylor Swift Jet
+            </video>
+          </div>
+          <div className="col-lg-4 d-flex justify-content-center">
+            <video className='w-100' muted loop autoPlay>
+              <source src={video2} type="video/mp4" />
+              Taylor Swift Jet
+            </video>
+          </div>
+          <div className="col-lg-4 d-flex justify-content-center">
+            <video className='w-100' muted loop autoPlay>
+              <source src={video3} type="video/mp4" />
               Taylor Swift Jet
             </video>
           </div>
